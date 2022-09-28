@@ -9,16 +9,6 @@ India, display “Please visit the International Office.”.
 """
 
 
-country = input("Enter your nationality: ")
-
-if country.lower() == "india":
-    state = input("Enter your state: ")
-    if state.lower() == "pune":
-        print("You are on the waitlist for hostel accomodation.")
-    else:
-        print("You are eligible for hostel accomodation.")
-else:
-    print("PLease visit the international Office.")
 
 
 

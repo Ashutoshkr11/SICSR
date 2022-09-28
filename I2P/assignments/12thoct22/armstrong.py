@@ -10,15 +10,4 @@ ii. To access an element of a list/tuple, use its index as follows:
     list_name[0] will refer to the first element.
 """
 
-num = input("Enter a number: ")
-digits = list(num)
 
-total = 0
-for digit in digits:
-    total += int(digit) ** 3
-
-num = int(num)
-if num == total:
-    print(num, "is an Armstrong number!")
-else:
-    print(num, "is not an Armstrong number!")
