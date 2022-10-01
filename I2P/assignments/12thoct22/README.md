@@ -12,21 +12,20 @@ digits.
 list_name[0] will refer to the first element.
 
 Method:
-1. Take number from user via `input()`
-2. Seperate number into it's digits by casting it to a `list`
-3. Convert each digit to an `int`, take it's cube and add them
-4. Convert input number to an `int` and compare with the number in Step 3
-5. Print result
+1. Use `input()` to get number from user
+2. Use `list()` to cast input string to list
+3. Use `int()` and the exponential operator `**` to get the sum of cubes of all digits
+4. Compare to original number
+5. Use `print()` to display result
 
 Solution: 
 ```py
-num = input("Enter a 3-digit number: ")
-digits = list(num)
+num = input("Enter a number")
+nums = list(num)
 
-l = int(digits[0])**3 + int(digits[1])**3 + int(digits[2])**3
-r = int(num)
+total = int(nums[0])**3 + int(nums[1])**3 + int(nums[2])**3
 
-if l == r:
+if total == int(num):
     print(num, "is an Armstrong number")
 else:
     print(num, "is not an Armstrong number")

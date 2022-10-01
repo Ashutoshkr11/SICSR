@@ -11,13 +11,12 @@ ii. To access an element of a list/tuple, use its index as follows:
 """
 
 
-num = input("Enter a 3-digit number: ")
-digits = list(num)
+num = input("Enter a number")
+nums = list(num)
 
-l = int(digits[0])**3 + int(digits[1])**3 + int(digits[2])**3
-r = int(num)
+total = int(nums[0])**3 + int(nums[1])**3 + int(nums[2])**3
 
-if l == r:
+if total == int(num):
     print(num, "is an Armstrong number")
 else:
     print(num, "is not an Armstrong number")
