@@ -20,7 +20,7 @@ Method:
 
 Solution: 
 ```py
-num = input("Enter a number")
+num = input("Enter a number ")
 nums = list(num)
 
 total = int(nums[0])**3 + int(nums[1])**3 + int(nums[2])**3

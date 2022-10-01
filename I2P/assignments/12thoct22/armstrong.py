@@ -11,7 +11,7 @@ ii. To access an element of a list/tuple, use its index as follows:
 """
 
 
-num = input("Enter a number")
+num = input("Enter a number ")
 nums = list(num)
 
 total = int(nums[0])**3 + int(nums[1])**3 + int(nums[2])**3
