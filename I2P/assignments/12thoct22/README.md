@@ -23,15 +23,13 @@ Solution:
 num = input("Enter a 3-digit number: ")
 digits = list(num)
 
-lhs = int(digits[0])**3 + int(digits[1])**3 + int(digits[2])**3
-rhs = int(num)
+l = int(digits[0])**3 + int(digits[1])**3 + int(digits[2])**3
+r = int(num)
 
-if lhs == rhs:
-    result = "is"
+if l == r:
+    print(num, "is an Armstrong number")
 else:
-    result = "is not"
-
-print(num, result, "an Armstrong number!")
+    print(num, "is not an Armstrong number")
 ```
 
 
@@ -46,10 +44,10 @@ India, display “Please visit the International Office.”.
 
 Solution:
 ```py
-country = input("Enter your country: ")
-if country == "India":
-    city = input("Enter your city: ")
-    if city == "Pune":
+cntry = input("Enter your country: ")
+if cntry == "India":
+    state = input("Enter your state: ")
+    if state == "Pune":
         print("You are on the waitlist for hotel accomodation.")
     else:
         print("You are eligible for hostel accomodation.")

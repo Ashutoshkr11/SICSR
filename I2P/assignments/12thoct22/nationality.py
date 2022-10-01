@@ -8,10 +8,10 @@ India, display “Please visit the International Office.”.
 
 """
 
-country = input("Enter your country: ")
-if country == "India":
-    city = input("Enter your city: ")
-    if city == "Pune":
+cntry = input("Enter your country: ")
+if cntry == "India":
+    state = input("Enter your state: ")
+    if state == "Pune":
         print("You are on the waitlist for hotel accomodation.")
     else:
         print("You are eligible for hostel accomodation.")
