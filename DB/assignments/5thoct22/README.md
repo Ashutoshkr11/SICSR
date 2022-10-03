@@ -4,6 +4,18 @@ Q. Consider requirements of a scenario for E-R model, and write a short descript
 Note: Please create your own and avoid copying others. Marks will be deducted (upto 50%) in case of copying caught. 
 
 ---
+## Steps
+    1. Identify a plausible scenario for using a DBMS.
+    2. Note down the entities involved.
+    3. Note down the attributes of the entities.
+    4. Note down the relationships between the entities.
+    5. Follow the ER Diagram spec and create a diagram to match your scenario.
+    6. Translate the ER Model to a Relational Model:
+        - Create a new relation (table) for every entity.
+        - Create a new relation for every Many to Many relationship.
+    7. Note down the final relations and their keys.
+
+---
 
 ## Case: University Library
 
