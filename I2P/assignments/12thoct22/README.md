@@ -11,6 +11,8 @@ digits.
 2. To access an element of a list/tuple, use its index as follows:
 list_name[0] will refer to the first element.
 
+**Loops are not allowed**
+
 Method:
 1. Use `input()` to get number from user
 2. Use `list()` to cast input string to list
